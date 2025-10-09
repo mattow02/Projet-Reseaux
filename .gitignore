@@ -1,0 +1,39 @@
+# --- Fichiers compilés ---
+*.o
+*.out
+*.obj
+*.exe
+
+# --- Fichiers de build ---
+/build/
+/bin/
+/dist/
+
+# --- Fichiers temporaires ---
+*.log
+*.tmp
+
+# --- Fichiers système ---
+.DS_Store
+Thumbs.db
+
+# --- Éditeurs / IDE ---
+# (décommente ceux que tu utilises)
+# Code::Blocks
+*.depend
+*.layout
+
+# Visual Studio Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+
+# --- Fichiers personnels ou de test ---
+*.lan
+*.txt
+
+# --- Documentation ---
+# Garde les fichiers Markdown (README.md, etc.)
+# Si tu veux tous les ignorer, décommente la ligne suivante :
+# *.md
