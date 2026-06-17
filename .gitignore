@@ -32,8 +32,6 @@ Thumbs.db
 .idea/
 
 # --- Fichiers personnels ou de test ---
-*.lan
-*.txt
 
 # --- Documentation ---
 # Garde les fichiers Markdown (README.md, etc.)
