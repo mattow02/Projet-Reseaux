@@ -6,6 +6,8 @@
 
 # --- Fichiers de build ---
 /build/
+/out/
+/exe/
 /bin/
 /dist/
 
