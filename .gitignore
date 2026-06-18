@@ -1,39 +1,27 @@
-# --- Fichiers compilés ---
+# Compiled objects
 *.o
 *.out
 *.obj
 *.exe
 
-# --- Fichiers de build ---
+# Build output
 /build/
 /out/
 /exe/
 /bin/
 /dist/
+network_sim
 
-# --- Fichiers temporaires ---
+# Temporary files
 *.log
 *.tmp
 
-# --- Fichiers système ---
+# OS
 .DS_Store
 Thumbs.db
 
-# --- Éditeurs / IDE ---
-# (décommente ceux que tu utilises)
-# Code::Blocks
+# Editors / IDE
 *.depend
 *.layout
-
-# Visual Studio Code
 .vscode/
-
-# CLion / JetBrains
 .idea/
-
-# --- Fichiers personnels ou de test ---
-
-# --- Documentation ---
-# Garde les fichiers Markdown (README.md, etc.)
-# Si tu veux tous les ignorer, décommente la ligne suivante :
-# *.md

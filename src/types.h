@@ -4,31 +4,31 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-// Type pour représenter une adresse MAC (6 octets)
+/* MAC address (6 bytes) */
 typedef struct {
     uint8_t octets[6];
 } mac_address_t;
 
-// Type pour représenter une adresse IPv4 (4 octets)
+/* IPv4 address (4 bytes) */
 typedef struct {
     uint8_t octets[4];
 } ipv4_address_t;
 
-// Type pour représenter un sommet dans le graphe
-typedef size_t sommet;
+/* Graph vertex index */
+typedef size_t vertex;
 
-// Structure pour représenter une arête
+/* Graph edge connecting two vertices */
 typedef struct {
-    sommet s1;
-    sommet s2;
-} arete;
+    vertex v1;
+    vertex v2;
+} edge;
 
-// Structure pour représenter un graphe
+/* Adjacency-list graph */
 typedef struct {
-    size_t ordre;
-    arete* aretes;
-    size_t aretes_capacite;
-    size_t nb_aretes;
-} graphe;
+    size_t order;
+    edge* edges;
+    size_t edges_capacity;
+    size_t nb_edges;
+} graph;
 
-#endif 
+#endif
