@@ -9,11 +9,11 @@ A network simulator written in C that models a local network with switches and s
 
 ## Features
 
-- **Topology parsing** — reads `.lan` config files describing switches, stations, and links.
-- **MAC address learning** — switches dynamically build forwarding tables from observed traffic.
-- **Ethernet frame handling** — create, parse, and display Ethernet frames with proper MAC/IP addressing.
-- **Spanning Tree Protocol** — full STP implementation: root bridge election, port roles (Root/Designated/Blocked), loop prevention.
-- **Forwarding simulation** — frames are forwarded, flooded, or dropped based on the learned MAC tables and STP port states.
+- **Topology parsing**, reads `.lan` config files describing switches, stations, and links.
+- **MAC address learning**, switches dynamically build forwarding tables from observed traffic.
+- **Ethernet frame handling**, create, parse, and display Ethernet frames with proper MAC/IP addressing.
+- **Spanning Tree Protocol**, full STP implementation: root bridge election, port roles (Root/Designated/Blocked), loop prevention.
+- **Forwarding simulation**, frames are forwarded, flooded, or dropped based on the learned MAC tables and STP port states.
 
 ---
 
@@ -62,7 +62,7 @@ link S2:1 PC2
 
 ```
 src/
-├── main.c              Entry point — loads config, runs simulation
+├── main.c              Entry point, loads config, runs simulation
 ├── config_reader.c/h   Topology file parser
 ├── network.c/h         Switch tables, MAC learning, frame forwarding
 ├── stp.c/h             Spanning Tree Protocol implementation
