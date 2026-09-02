@@ -20,17 +20,17 @@ A network simulator written in C that models a local network with switches and s
 ## Building
 
 ```bash
-git clone https://github.com/mattow02/Projet-Reseaux.git
-cd Projet-Reseaux
+git clone https://github.com/mattow02/Projet-Reseaux-v2.git
+cd Projet-Reseaux-v2
 make
 ```
 
-The executable is placed in `exe/`.
+Le binaire est écrit dans `out/network_sim`. La compilation passe en `-Wall -Wextra` sans un seul avertissement.
 
 ## Running
 
 ```bash
-./exe/main mylan.lan.txt
+./out/network_sim mylan.lan.txt
 ```
 
 Where `mylan.lan.txt` is a topology configuration file. Several examples are included in the repo (`mylan.lan.txt`, `mylan_no_cycle.lan`, `w_mylan_1.lan`, `w_mylan_2.lan`).

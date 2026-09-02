@@ -167,14 +167,14 @@ void print_network_config(const network_config_t* config) {
 
     printf("Switches:\n");
     for (size_t i = 0; i < config->network.nb_switches; i++) {
-        printf("  Switch %zu — MAC: ", i);
+        printf("  Switch %zu  MAC: ", i);
         print_mac_address(&config->network.switches[i].mac);
         printf(", Ports: %zu\n", config->network.switches[i].nb_ports);
     }
 
     printf("\nStations:\n");
     for (size_t i = 0; i < config->network.nb_stations; i++) {
-        printf("  Station %zu — MAC: ", i);
+        printf("  Station %zu  MAC: ", i);
         print_mac_address(&config->network.stations[i].mac);
         printf(", IP: ");
         print_ipv4_address(&config->network.stations[i].ip);
