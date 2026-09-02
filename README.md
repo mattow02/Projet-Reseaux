@@ -10,6 +10,9 @@ A network simulator written in C that models a local network with switches and s
 > **Coursework.** Networking project (SAE) of the BUT Informatique at IUT
 > Robert Schuman, Strasbourg. Written in 2025, over about two months.
 
+> **Coursework.** Networking project (SAE) of the BUT Informatique at IUT
+> Robert Schuman, Strasbourg. Written in 2025, over about two months.
+
 ## Features
 
 - **Topology parsing**, reads `.lan` config files describing switches, stations, and links.
