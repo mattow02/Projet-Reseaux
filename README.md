@@ -26,8 +26,8 @@ A network simulator written in C that models a local network with switches and s
 ## Building
 
 ```bash
-git clone https://github.com/mattow02/Projet-Reseaux-v2.git
-cd Projet-Reseaux-v2
+git clone https://github.com/mattow02/Projet-Reseaux.git
+cd Projet-Reseaux
 make
 ```
 
